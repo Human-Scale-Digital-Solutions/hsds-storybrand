@@ -393,25 +393,20 @@ section {
   }
 }
 
-.hero-image {
-  min-height: 300px;
-  background: #3a3a3a;
-  line-height: 0;
-  font-size: 0;
+.hero-image img {
+  width: 100%;
+  display: block;
 }
 
 @media (min-width: 768px) {
   .hero-image {
     flex: 1 1 50%;
-    min-height: auto;
   }
-}
 
-.hero-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
+  .hero-image img {
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
 /* ===== Stakes Section ===== */
