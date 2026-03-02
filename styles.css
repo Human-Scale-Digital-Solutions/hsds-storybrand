@@ -1024,7 +1024,7 @@ button:focus-visible,
 
 .portfolio-hero {
   background: linear-gradient(180deg, var(--color-primary-light) 0%, var(--color-bg) 100%);
-  padding: calc(80px + var(--space-4)) var(--space-5) var(--space-3);
+  padding: calc(80px + var(--space-8)) var(--space-5) var(--space-8);
   text-align: center;
   display: flex;
   align-items: center;
@@ -1033,7 +1033,7 @@ button:focus-visible,
 
 @media (min-width: 768px) {
   .portfolio-hero {
-    padding: calc(80px + var(--space-5)) var(--space-8) var(--space-4);
+    padding: calc(80px + var(--space-10)) var(--space-8) var(--space-10);
   }
 }
 
@@ -1046,6 +1046,16 @@ button:focus-visible,
   max-width: 520px;
   margin: 0 auto;
   text-wrap: balance;
+}
+
+section.portfolio {
+  padding-top: var(--space-6);
+}
+
+@media (min-width: 768px) {
+  section.portfolio {
+    padding-top: var(--space-8);
+  }
 }
 
 .portfolio-grid {
