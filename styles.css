@@ -320,6 +320,7 @@ section {
   padding-top: 80px; /* nav height */
   margin: 0;
   padding-bottom: 0;
+  background: #e8f2f2;
 }
 
 .hero-layout {
@@ -335,7 +336,7 @@ section {
 }
 
 .hero-text {
-  background: linear-gradient(180deg, var(--color-primary-light) 0%, var(--color-bg) 100%);
+  background: linear-gradient(180deg, var(--color-primary-light) 0%, #f0f7f7 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -416,7 +417,6 @@ section {
 .stakes {
   background: #e8f2f2;
   padding-top: var(--space-8);
-  margin-top: -2px;
 }
 
 @media (min-width: 768px) {
