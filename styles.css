@@ -1154,6 +1154,12 @@ section.portfolio {
   margin: 0 auto;
 }
 
+@media (min-width: 768px) {
+  .portfolio-cta-centered {
+    max-width: 700px;
+  }
+}
+
 .portfolio-cta-centered h2 {
   margin-bottom: var(--space-4);
 }
