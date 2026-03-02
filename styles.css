@@ -48,6 +48,10 @@
   --max-width-narrow: 560px;
 }
 
+/* ===== Utility ===== */
+.mobile-break { display: inline; }
+@media (min-width: 768px) { .mobile-break { display: none; } }
+
 /* ===== Reset & Base ===== */
 *, *::before, *::after {
   box-sizing: border-box;
