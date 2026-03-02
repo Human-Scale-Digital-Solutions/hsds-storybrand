@@ -371,6 +371,7 @@ section {
   line-height: 1.7;
   color: var(--color-text-secondary);
   margin: 0 0 var(--space-8);
+  text-wrap: balance;
 }
 
 .hero-cta {
